@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Adobe Bootstrap</title>
+    
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="lib/zenburn.css">
+ 
+  </head>
+  <body>
+    <div id="reveal">
+      <div class="state-background"></div>
+      <div class="slides">
+        <section data-state="home-page" class="home">
+          <h1>Bootstrap</h1>
+          <h6 >4.1 v</h6>
+          <br>
+          <p>Build responsive, mobile-first projects on the web with the world's most popular front-end component library. </p>
+          <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery. </p>
+          
+        </section>
+        <section>
+          <h2>Introduction</h2>
+         <p>Originally created by a designer and a developer at Twitter, Bootstrap has become one of the most popular front-end frameworks and open source projects in the world.</p>
+         <p>Bootstrap was created at Twitter in mid-2010 by <a href="https://twitter.com/mdo">@mdo</a> and <a href="https://twitter.com/fat">@fat</a>. Bootstrap was known as <em>Twitter Blueprint</em>.</p>
+         <p>Originally <a href="https://blog.twitter.com/developer/en_us/a/2011/bootstrap-twitter.html">released</a> on <time datetime="2011-08-19 11:25">Friday, August 19, 2011</time>, we’ve since had over <a href="https://github.com/twbs/bootstrap/releases">twenty releases</a>, including two major rewrites with v2 and v3. With Bootstrap 2, we added responsive functionality to the entire framework as an optional stylesheet. Building on that with Bootstrap 3, we rewrote the library once more to make it responsive by default with a mobile first approach.</p>
+         <p>With Bootstrap 4, we once again rewrote the project to account for two key architectural changes: a migration to Sass and the move to CSS’s flexbox. Our intention is to help in a small way to move the web development community forward by pushing for newer CSS properties, fewer dependencies, and new technologies across more modern browsers.</p>
+         
+         
+        </section>
+        <section>
+         <section>
+            <h2>Why Bootstrap</h2>
+           <img src="images/why.jpg" style="width: 800px;"  >
+          </section>
+          <section>
+            <h2>Comparison</h2>
+           <img src="images/compare.jpg" style="width: 800px;" >
+          </section>
+          <section>
+            <h2>Bootstrap Advantages</h2>
+            
+            <ul>
+            	<li>Easy to Use.</li>
+            	<li>Best styes, and ultimate in rapid prototyping.</li>
+            	<li>The grid system comprises of fluid, as well as fixed patterns.</li>
+            	<li>Mobile support is superior in comparison with foundation.</li>
+            	<li>It has highest number of templates.</li>
+            	<li>Its developer communities is too large.</li>
+            </ul>
+            
+          </section>
+        </section>
+        <section>
+         <h2>Bootstrap Grids </h2>
+           <img src="images/grid.png" style="width: 500px;" >
+          
+        </section>
+        
+        
+        
+        <section>
+         <h2>Let's Started <br>with  <br>Bootstrap Coding </h2>
+          <a href="https://getbootstrap.com/" target="_blank">	<button type="button" class="button-lg">Get Bootstrap</button></a>
+        </section>
+        
+         <section>
+         <h2>Bootstrap Class <br> Customization </h2>
+         <a href="https://getbootstrap.com/docs/3.3/customize/" target="_blank">	<button type="button" class="button-lg">Get Bootstrap</button></a>
+          
+        </section>
+        <section>
+          <h2>Conclusions</h2><br><br>
+         <p>You might be happy with your current custom CSS library, but try using Bootstrap for one project and am sure you would ask yourself how you managed all these years without it.</p>
+        </section>
+      </div>
+      <aside class="controls"><a href="#" style="-webkit-transform:rotate(180deg);" class="left">&#x2794;</a><a href="#" class="right">&#x2794;</a><a href="#" class="up"></a><a href="#" class="down"></a></aside>
+      <div class="progress"><span></span></div>
+    </div>
+    <script src="js/reveal.js"></script>
+    <script src="lib/highlight.js"></script>
+    <script src="lib/classList.js"></script>
+    <script>
+      // Parse the query string into a key/value object
+      var query = {};
+      location.search.replace( /[A-Z0-9]+?=(\w*)/gi, function(a) {
+       query[ a.split( '=' ).shift() ] = a.split( '=' ).pop();
+      } );
+      Reveal.initialize({
+       // Display controls in the bottom right corner
+       controls: !(query.controls === 'false'),
+       // Display a presentation progress bar
+       progress: true,
+       // If true; each slide will be pushed to the browser history
+       history: true,
+       // Flags if mouse wheel navigation should be enabled
+       mouseWheel: true,
+       // Apply a 3D roll to links on hover
+       rollingLinks: false,
+       // UI style
+       theme: query.theme || 'adobe', // default/neon
+       // Transition style
+       transition: query.transition || 'linear' // default/cube/page/concave/linear(2d)
+      });
+      hljs.initHighlightingOnLoad();
+    </script>
+  </body>
+</html>

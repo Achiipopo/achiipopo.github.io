@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.container-fluid{padding-left: 0px;
+					padding-right: 0px;}
+
+.navbar-inverse {
+    background-color: #3c3d41;
+    border-color: #3c3d41;
+}
+
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.navbar {margin-bottom: 0px;}
+	
+	body{background-color: #e7e7e7;}
+	.probox{box-shadow: 0 3px 5px #EEEEEE;
+    transition: box-shadow 0.5s ease;
+	background-color: #fff;
+	padding: 10px 0px;
+	padding: 0px 0px 6px 0px;
+	margin: 30px 45px;
+border-radius: 10px;}
+.imgr{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.show{background-color: #3c3d41;}
+.show li{color: #fff;}
+.show a:hover{color: #fff; background-color: #000;}
+.show li a{color: #fff;}
+	h4{font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;color:#414141; font-weight: 600;}
+	.probox span{
+	list-style: none;
+   
+    color: #414141;
+    cursor: pointer;
+	display: inline;
+		padding: 7px 55px 7px 55px;
+		
+		font-size: 24px;
+
+	}
+
+.price{text-align: right;padding-right: 15px; font-size: 16px; font-weight: 900; color: orange;}
+
+	.probox span:hover{ background: #2965be; color: #fff;}
+	
+	.res, .add{margin-left: 10px; color: #414141;
+		color: #414141;
+		font-weight: 600;}
+	
+
+
+/***********************************/
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+
+/* EXAMPLE 8 - Center Background */
+.example-8 .navbar-brand {
+  background: url(images/logo.png) center / contain no-repeat;
+  width: 200px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	.footer-bs {
+    background-color: #3c3d41;
+	padding: 60px 40px;
+	color: rgba(255,255,255,1.00);
+	margin-bottom: 20px;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 6px;
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-nav h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+.footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+@media (min-width: 768px) {
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+}
+	
+	
+
+
+/* EXAMPLE 8 - Center on mobile*/
+	@media only screen and (max-width : 768px){
+  .example-8 .navbar-brand {
+  padding: 0px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.example-8 .navbar-brand>img {
+  height: 100%;
+  width: auto;
+  padding: 7px 14px; 
+}
+}
