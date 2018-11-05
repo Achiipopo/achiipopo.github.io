@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <title>ASC</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="js/bootstrap.min.js">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+ 
+<link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Open+Sans|Oswald|Righteous|Roboto" rel="stylesheet">  
+  <link rel="stylesheet" href="animation-css/animate.min.css">
+  
+  
+  <style>
+	
+	.card{
+		   margin-top: 20px;
+		   float: left;
+	   	}
+	   .quickview{float: left;}
+	   .quickview h4{font-weight: 600; color: #000;}
+	   
+	   .plus , .minus{font-size: 16px; color: #363636; font-weight: 600;}
+	   .submit-btn{margin-top: 10px;}
+	  .card img{padding: 10px;}
+	</style>
+  
+  
+  
+</head>
+<body>
+
+<section class="">
+
+		<div class="container-fluid toppanel">
+	<div class="row">
+		<div class="col-md-6 col-sm-8 col-7 logo ">
+			<a href="index.html"><img src="images/logo.png" class="img-fluid"></a>
+			</div>
+		
+			<div class="col-md-6 col-sm-4 col-5 ">
+			 <nav class="navbar navbar-expand-lg navbar-dark">
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse top-navbar" id="navbarNav">
+				<ul class="navbar-nav ">
+				  <li class="nav-item ">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link active" href="product.html">Products</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="our_team.html">Our Team</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="about-us.html">About Us</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="contact-us.html">Contact Us</a>
+				  </li>
+				</ul>
+			  </div>
+</nav>
+	 	</div>
+	</div>
+</div>
+
+
+
+
+</section>
+
+
+
+<!-- Tabs -->
+<section id="tabs">
+	<div class="container">
+		<h6 class="section-title h1">Products</h6>
+		<div class="row">
+			<div class="col-md-12 ">
+				<nav class="tab-navbar">
+					<div align="center" class="nav nav-tabs nav-fill " id="nav-tab" role="tablist">
+						<a class=" nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">High Voltage</a>
+						<a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Low Voltage</a>
+<!--
+						<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+						<a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">About</a>
+-->
+					</div>
+				</nav>
+				<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+					
+
+<section >
+
+ <div class="container pro1">
+ 
+ <div class="card col-md-3" >
+  	<img class="card-img-top img-fluid" src="images/product.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h3 align="center" class="card-title">Product Name</h3>
+    
+    <div align="center">
+    <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Quick View
+  </button>
+
+	 </div>
+		</div>
+			</div>
+<div class="container">
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Quick View</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <div class="col-md-4  quickview"><img src="images/sample.jpg" class="img-fluid"></div>
+         <div class="col-md-8  quickview">
+         <h4>Product Name</h4>
+         <p>
+         	A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+         </p>
+         <div class="containers">
+         	<div class="col-xs-2 col-xs-offset-2">
+            <h4 align="center">Quantity</h4>
+			<div class="input-group number-spinner">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="dwn"><span class="minus">-</span></button>
+				</span>
+				<input type="text" class="form-control text-center" value="1">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="up"><span class="plus">+</span></button>
+					
+				</span>
+			</div>
+			 <div align="center" class="submit-btn">
+			<button type="button" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+       
+         </div>
+         </div>
+         
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+ 		</div>
+
+</section>
+ 
+ <section >
+
+ <div class="container pro2">
+ 
+ <div class="card col-md-3" >
+  	<img class="card-img-top img-fluid" src="images/product.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h3 align="center" class="card-title">Product Name</h3>
+    
+    <div align="center">
+    <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+    Quick View
+  </button>
+
+	 </div>
+		</div>
+			</div>
+<div class="container">
+  <!-- The Modal -->
+  <div class="modal" id="myModal2">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Quick View</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <div class="col-md-4  quickview"><img src="images/sample.jpg" class="img-fluid"></div>
+         <div class="col-md-8  quickview">
+         <h4>Product Name</h4>
+         <p>
+         	2 A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+         </p>
+         <div class="containers">
+         	<div class="col-xs-2 col-xs-offset-2">
+            <h4 align="center">Quantity</h4>
+			<div class="input-group number-spinner">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="dwn"><span class="minus">-</span></button>
+				</span>
+				<input type="text" class="form-control text-center" value="1">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="up"><span class="plus">+</span></button>
+					
+				</span>
+			</div>
+			 <div align="center" class="submit-btn">
+			<button type="button" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+       
+         </div>
+         </div>
+         
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+ 		</div>
+
+</section>
+
+
+
+ <section >
+
+ <div class="container pro3">
+ 
+ <div class="card col-md-3" >
+  	<img class="card-img-top img-fluid" src="images/product.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h3 align="center" class="card-title">Product Name</h3>
+    
+    <div align="center">
+    <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+    Quick View
+  </button>
+
+	 </div>
+		</div>
+			</div>
+<div class="container">
+  <!-- The Modal -->
+  <div class="modal" id="myModal3">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Quick View</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <div class="col-md-4  quickview"><img src="images/sample.jpg" class="img-fluid"></div>
+         <div class="col-md-8  quickview">
+         <h4>Product Name</h4>
+         <p>
+         	2 A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+         </p>
+         <div class="containers">
+         	<div class="col-xs-2 col-xs-offset-2">
+            <h4 align="center">Quantity</h4>
+			<div class="input-group number-spinner">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="dwn"><span class="minus">-</span></button>
+				</span>
+				<input type="text" class="form-control text-center" value="1">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="up"><span class="plus">+</span></button>
+					
+				</span>
+			</div>
+			 <div align="center" class="submit-btn">
+			<button type="button" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+       
+         </div>
+         </div>
+         
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+ 		</div>
+
+</section>
+
+ <section >
+
+ <div class="container pro4">
+ 
+ <div class="card col-md-3" >
+  	<img class="card-img-top img-fluid" src="images/product.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h3 align="center" class="card-title">Product Name</h3>
+    
+    <div align="center">
+    <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">
+    Quick View
+  </button>
+
+	 </div>
+		</div>
+			</div>
+<div class="container">
+  <!-- The Modal -->
+  <div class="modal" id="myModal4">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Quick View</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <div class="col-md-4  quickview"><img src="images/sample.jpg" class="img-fluid"></div>
+         <div class="col-md-8  quickview">
+         <h4>Product Name</h4>
+         <p>
+         	2 A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+         </p>
+         <div class="containers">
+         	<div class="col-xs-2 col-xs-offset-2">
+            <h4 align="center">Quantity</h4>
+			<div class="input-group number-spinner">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="dwn"><span class="minus">-</span></button>
+				</span>
+				<input type="text" class="form-control text-center" value="1">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="up"><span class="plus">+</span></button>
+					
+				</span>
+			</div>
+			 <div align="center" class="submit-btn">
+			<button type="button" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+       
+         </div>
+         </div>
+         
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+ 		</div>
+
+</section>
+
+
+
+
+ <section >
+
+ <div class="container pro4">
+ 
+ <div class="card col-md-3" >
+  	<img class="card-img-top img-fluid" src="images/product.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h3 align="center" class="card-title">Product Name</h3>
+    
+    <div align="center">
+    <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal5">
+    Quick View
+  </button>
+
+	 </div>
+		</div>
+			</div>
+<div class="container">
+  <!-- The Modal -->
+  <div class="modal" id="myModal5">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Quick View</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <div class="col-md-4  quickview"><img src="images/sample.jpg" class="img-fluid"></div>
+         <div class="col-md-8  quickview">
+         <h4>Product Name</h4>
+         <p>
+         	5 A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+         </p>
+         <div class="containers">
+         	<div class="col-xs-2 col-xs-offset-2">
+            <h4 align="center">Quantity</h4>
+			<div class="input-group number-spinner">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="dwn"><span class="minus">-</span></button>
+				</span>
+				<input type="text" class="form-control text-center" value="1">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="up"><span class="plus">+</span></button>
+					
+				</span>
+			</div>
+			 <div align="center" class="submit-btn">
+			<button type="button" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+       
+         </div>
+         </div>
+         
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+ 		</div>
+
+</section>
+
+
+
+
+
+
+<div class="clearfix"></div>
+
+					</div>
+					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+						
+<section >
+
+ <div class="container pro1">
+ 
+ <div class="card col-md-3" >
+  	<img class="card-img-top img-fluid" src="images/product.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h3 align="center" class="card-title">Product Name</h3>
+    
+    <div align="center">
+    <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal01">
+    Quick View
+  </button>
+
+	 </div>
+		</div>
+			</div>
+<div class="container">
+  <!-- The Modal -->
+  <div class="modal" id="myModal01">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Quick View</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <div class="col-md-4  quickview"><img src="images/sample.jpg" class="img-fluid"></div>
+         <div class="col-md-8  quickview">
+         <h4>Product Name</h4>
+         <p>
+         	A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+         </p>
+         <div class="containers">
+         	<div class="col-xs-2 col-xs-offset-2">
+            <h4 align="center">Quantity</h4>
+			<div class="input-group number-spinner">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="dwn"><span class="minus">-</span></button>
+				</span>
+				<input type="text" class="form-control text-center" value="1">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="up"><span class="plus">+</span></button>
+					
+				</span>
+			</div>
+			 <div align="center" class="submit-btn">
+			<button type="button" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+       
+         </div>
+         </div>
+         
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+ 		</div>
+
+</section>
+ 
+ <section >
+
+ <div class="container pro2">
+ 
+ <div class="card col-md-3" >
+  	<img class="card-img-top img-fluid" src="images/product.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h3 align="center" class="card-title">Product Name</h3>
+    
+    <div align="center">
+    <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal02">
+    Quick View
+  </button>
+
+	 </div>
+		</div>
+			</div>
+<div class="container">
+  <!-- The Modal -->
+  <div class="modal" id="myModal02">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Quick View</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <div class="col-md-4  quickview"><img src="images/sample.jpg" class="img-fluid"></div>
+         <div class="col-md-8  quickview">
+         <h4>Product Name</h4>
+         <p>
+         	2 A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+         </p>
+         <div class="containers">
+         	<div class="col-xs-2 col-xs-offset-2">
+            <h4 align="center">Quantity</h4>
+			<div class="input-group number-spinner">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="dwn"><span class="minus">-</span></button>
+				</span>
+				<input type="text" class="form-control text-center" value="1">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="up"><span class="plus">+</span></button>
+					
+				</span>
+			</div>
+			 <div align="center" class="submit-btn">
+			<button type="button" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+       
+         </div>
+         </div>
+         
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+ 		</div>
+
+</section>
+
+
+
+ <section >
+
+ <div class="container pro3">
+ 
+ <div class="card col-md-3" >
+  	<img class="card-img-top img-fluid" src="images/product.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h3 align="center" class="card-title">Product Name</h3>
+    
+    <div align="center">
+    <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal03">
+    Quick View
+  </button>
+
+	 </div>
+		</div>
+			</div>
+<div class="container">
+  <!-- The Modal -->
+  <div class="modal" id="myModal03">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Quick View</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <div class="col-md-4  quickview"><img src="images/sample.jpg" class="img-fluid"></div>
+         <div class="col-md-8  quickview">
+         <h4>Product Name</h4>
+         <p>
+         	2 A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+         </p>
+         <div class="containers">
+         	<div class="col-xs-2 col-xs-offset-2">
+            <h4 align="center">Quantity</h4>
+			<div class="input-group number-spinner">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="dwn"><span class="minus">-</span></button>
+				</span>
+				<input type="text" class="form-control text-center" value="1">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="up"><span class="plus">+</span></button>
+					
+				</span>
+			</div>
+			 <div align="center" class="submit-btn">
+			<button type="button" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+       
+         </div>
+         </div>
+         
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+ 		</div>
+
+</section>
+
+ <section >
+
+ <div class="container pro4">
+ 
+ <div class="card col-md-3" >
+  	<img class="card-img-top img-fluid" src="images/product.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h3 align="center" class="card-title">Product Name</h3>
+    
+    <div align="center">
+    <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal04">
+    Quick View
+  </button>
+
+	 </div>
+		</div>
+			</div>
+<div class="container">
+  <!-- The Modal -->
+  <div class="modal" id="myModal04">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Quick View</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <div class="col-md-4  quickview"><img src="images/sample.jpg" class="img-fluid"></div>
+         <div class="col-md-8  quickview">
+         <h4>Product Name</h4>
+         <p>
+         	2 A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+         </p>
+         <div class="containers">
+         	<div class="col-xs-2 col-xs-offset-2">
+            <h4 align="center">Quantity</h4>
+			<div class="input-group number-spinner">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="dwn"><span class="minus">-</span></button>
+				</span>
+				<input type="text" class="form-control text-center" value="1">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="up"><span class="plus">+</span></button>
+					
+				</span>
+			</div>
+			 <div align="center" class="submit-btn">
+			<button type="button" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+       
+         </div>
+         </div>
+         
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+ 		</div>
+
+</section>
+
+
+
+
+ <section >
+
+ <div class="container pro4">
+ 
+ <div class="card col-md-3" >
+  	<img class="card-img-top img-fluid" src="images/product.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h3 align="center" class="card-title">Product Name</h3>
+    
+    <div align="center">
+    <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal05">
+    Quick View
+  </button>
+
+	 </div>
+		</div>
+			</div>
+<div class="container">
+  <!-- The Modal -->
+  <div class="modal" id="myModal05">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Quick View</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <div class="col-md-4  quickview"><img src="images/sample.jpg" class="img-fluid"></div>
+         <div class="col-md-8  quickview">
+         <h4>Product Name</h4>
+         <p>
+         	5 A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+         </p>
+         <div class="containers">
+         	<div class="col-xs-2 col-xs-offset-2">
+            <h4 align="center">Quantity</h4>
+			<div class="input-group number-spinner">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="dwn"><span class="minus">-</span></button>
+				</span>
+				<input type="text" class="form-control text-center" value="1">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="up"><span class="plus">+</span></button>
+					
+				</span>
+			</div>
+			 <div align="center" class="submit-btn">
+			<button type="button" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+       
+         </div>
+         </div>
+         
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+ 		</div>
+
+</section>
+
+
+
+
+
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</section>
+<!-- ./Tabs -->
+
+
+
+<section>
+	
+	<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit.</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <hr>
+
+    <!-- Call to action -->
+<!--
+    <ul class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1">Register for free</h5>
+      </li>
+      <li class="list-inline-item">
+        <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+      </li>
+    </ul>
+-->
+    <!-- Call to action -->
+
+    <hr>
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+     
+      <li class="list-inline-item">
+        <a href="#">  <i href="#" class="fa fa-facebook"></i></a>
+       </li>
+       
+      
+      <li class="list-inline-item">
+       <a href="#"> <i class="fa fa-twitter"></i></a>
+      </li>
+      
+      
+      <li class="list-inline-item">    
+          <a href="#"><i class="fa fa-google-plus"> </i></a>
+      </li>
+      
+      
+      <li class="list-inline-item">
+         <a href="#"> <i class="fa fa-linkedin"> </i></a>
+       </li>
+      
+      
+      <li class="list-inline-item">
+        <a href="#">  <i class="fa fa-dribbble"> </i></a>
+      </li>
+      
+    </ul>
+    <!-- Social buttons -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="#"> ALISULAMAN ELECTRIC</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+	
+	
+	
+	
+</section>
+
+
+
+
+
+
+</body>
+</html>
