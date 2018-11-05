@@ -17,6 +17,12 @@
 }
 */
 
+body {
+  background-image:linear-gradient(#eee, #aaa);
+  height:100%;
+}
+
+
 .toppanel{padding: 20px; background-color: #000;}
 .toppanel nav{margin-top: 25px;}
 
