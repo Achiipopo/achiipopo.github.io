@@ -22,11 +22,21 @@ body {
   height:100%;
 }
 
+.logotext p {
+    font-size: 30px;
+    display: inline-block;
+    
+    color: #fff;
+}
+	.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin: initial;
+}
 
 .toppanel{padding: 20px; background-color: #000;}
 .toppanel nav{margin-top: 25px;}
 
-.logo{padding-left: 100px;}
+.logo{padding: 10px;padding: 0px 15px 0px 0px;}
 
 .top-navbar .navbar-nav .nav-item a{
     padding-right: 0px;
@@ -259,7 +269,11 @@ border-radius: 50%;
 
 @media only screen and (max-width: 768px) {
 
-	
+	.toppanel nav {
+    margin-top: 0px;
+    
+}
+
 	
 	.slide-text h1{font-size: 40px; margin-top: -45px;}
 	
@@ -268,19 +282,7 @@ border-radius: 50%;
 	
 	.carousel-indicators{display: none;}
 	
-	
-	
-	
-	.toppanel nav {
-    margin-top: 67px;
-    margin-left: 37px;
-}
 
-
-.top-navbar .navbar-nav .nav-item a{
-    padding-right: 0px;
-    margin: 0px -125px;
-}
 	.logo{ margin-top: 10px;}
 	
 	
@@ -296,7 +298,11 @@ border-radius: 50%;
 	.top-navbar .navbar-nav .nav-item a{
     padding-right: 0px;
     margin: 0px -200px;
+		
 }
+	  
+	  	
+	  
 }
 
 
