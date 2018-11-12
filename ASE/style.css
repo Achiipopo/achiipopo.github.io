@@ -258,13 +258,22 @@ border-radius: 50%;
     }
 
 
+.page-footer a, p{color:#9e9e9e; font-weight: 400;}
+
+.page-footer p{padding-bottom: 10px;}
+
+.mx-auto ul li{padding: 5px 0px;}
+
+.mt-3{background: -webkit-linear-gradient(#fff, #eee );
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;}
 
 
-
-
-
-
+.page-footer a:hover{color:#fff; font-weight: 600; text-decoration: none;}
 /* media queries*/
+
+
+
 
 
 @media only screen and (max-width: 768px) {
@@ -285,6 +294,17 @@ border-radius: 50%;
 
 	.logo{ margin-top: 10px;}
 	
+	.fa {
+
+    padding: 10px;
+    font-size: 20px !important;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+
+}
 	
 }
 
