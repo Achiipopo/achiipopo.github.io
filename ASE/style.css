@@ -273,7 +273,7 @@ border-radius: 50%;
 /* media queries*/
 
 .mx-auto p{color:#9e9e9e;}
-
+.con-add a{color:#fff;}
 
 
 @media only screen and (max-width: 768px) {
